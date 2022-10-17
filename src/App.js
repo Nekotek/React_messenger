@@ -10,13 +10,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollectionData } from "react-firebase-hooks/firestore";
 
 firebase.initializeApp({
-  apiKey: "AIzaSyAs2c427xNhLZR9aUfcqqBXW1Zd5asBSCU",
-  authDomain: "react-messenger-ffb1f.firebaseapp.com",
-  projectId: "react-messenger-ffb1f",
-  storageBucket: "react-messenger-ffb1f.appspot.com",
-  messagingSenderId: "535408432779",
-  appId: "1:535408432779:web:9eb025743d04e5f1f1268e",
-  measurementId: "G-3YNDNV3D9T",
+  //Firebase creds here
 });
 
 const auth = firebase.auth();
